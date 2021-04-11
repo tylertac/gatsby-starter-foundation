@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Tiny Time was the beast
+title: Tiny Time was the beast feast
 slug: /minimalists-desk
 date: 2020-05-13 12:46
 description: sdasd
