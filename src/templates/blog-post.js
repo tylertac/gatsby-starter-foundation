@@ -25,7 +25,7 @@ const styles = {
 }
 
 const Pagination = (props) => (
-  <div 
+  <div
     className="pagination -post"
     sx={styles.pagination}
   >
@@ -95,7 +95,7 @@ const Post = ({ data, pageContext }) => {
             />
           ) : ""}
         </header>
-        
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -112,7 +112,7 @@ export default Post
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String!) {
-    markdownRemark( 
+    markdownRemark(
       id: { eq: $id }
     ) {
       id
