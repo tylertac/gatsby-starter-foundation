@@ -32,6 +32,7 @@ const themeStyles = {
   modeOption : {
     "button": {
       fontSize: "25px",
+      display: "none",
       bg:"transparent",
       border:"none",
       cursor:"pointer",
@@ -45,7 +46,7 @@ const themeStyles = {
   modeIcons: {
     display:"flex",
     alignItems:"center",
-    color:"#fff",
+    color:"#000",
     mt:"10px"
 
   },

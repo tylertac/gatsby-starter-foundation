@@ -95,6 +95,15 @@ const HomePage = ({ data }) => {
 		<Layout>
       <SEO/>
       <div className="home-banner grids col-1 sm-2">
+      <div>
+        {Image ? (
+          <GatsbyImage
+            image={Image}
+            alt={frontmatter.title + " - Featured image"}
+            className="featured-image"
+          />
+        ) : ""}
+      </div>
         <div>
           <h1 className="title">{frontmatter.title}</h1>
           <p
@@ -118,15 +127,6 @@ const HomePage = ({ data }) => {
           <div  className="social-icons" sx={indexStyles.socialIcons}>
             {sIcons}
           </div>
-        </div>
-        <div>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          ) : ""}
         </div>
       </div>
       <BlogListHome data={posts} />
