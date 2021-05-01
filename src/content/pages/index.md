@@ -1,9 +1,9 @@
 ---
 template: index-page
 slug: /
-title: Food & Flair Designs
-tagline: By Trish Steiskal
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+title: Food & Flair Design
+tagline: Trish Steiskal
+featuredImage: /assets/food-flair-designs.white-background-logo.png
 cta:
   ctaText: Learn More
   ctaLink: /about
