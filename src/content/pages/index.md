@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Wyatt Morriss Horis Torris
 tagline: Graphic Designer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/food-flair-designs.white-background-logo.png
 cta:
   ctaText: Learn More
   ctaLink: /about
