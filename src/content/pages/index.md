@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-Blurb about Food & Flair Designs.
+Blurb about Food & Flair Designs. 
