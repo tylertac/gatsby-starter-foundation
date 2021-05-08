@@ -1,9 +1,9 @@
 ---
 template: blog-post
-title: Extreme gaming extravaganza
-slug: /gaming-extravaganza
+title: Image Two
+slug: /two
 date: 2020-05-13 12:55
-description: How we scaled an Extreme gaming extravaganza
+description: Image Two
 featuredImage: /assets/fredrick-tendong-hvyepjyehdq-unsplash.jpg
 ---
-My Pretty White ShoesMy Pretty White ShoesMy Pretty White ShoesMy Pretty White ShoesMy Pretty White ShoesMy Pretty White ShoesMy Pretty White Shoes
+Description
