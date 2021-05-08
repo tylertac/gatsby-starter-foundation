@@ -36,13 +36,12 @@ export const blogListQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
-						title
 						featuredImage {
 							childImageSharp {
                 gatsbyImageData(
                   layout: CONSTRAINED
-                  width: 400
-                  height: 260
+                  width: 550
+                  height: 450
                 )
 							}
 						}

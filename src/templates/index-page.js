@@ -23,8 +23,8 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(
               layout: CONSTRAINED
-              width: 585
-              height: 539
+              width: 460
+              height: 500
             )
           }
         }
@@ -51,7 +51,7 @@ export const pageQuery = graphql`
                 gatsbyImageData(
                   layout: FIXED
                   width: 550
-                  height: 400
+                  height: 450
                 )
               }
             }
@@ -93,8 +93,8 @@ const HomePage = ({ data }) => {
 	return (
 		<Layout>
       <SEO/>
-      <div className="home-banner grids col-1 sm-2">
-      <div>
+      <div className="home-banner grids col-1 sm-1">
+      <div className="home-banner-bg">
         {Image ? (
           <GatsbyImage
             image={Image}
@@ -103,7 +103,7 @@ const HomePage = ({ data }) => {
           />
         ) : ""}
       </div>
-        <div>
+        <div class="information">
           <h1 className="title">{frontmatter.title}</h1>
           <p
             className="tagline"

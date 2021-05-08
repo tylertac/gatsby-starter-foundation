@@ -1,11 +1,11 @@
 const theme = {
   colors: {
     text: '#000',
-    background: '#fff',
-    primary: '#c2dbba',
+    background: '#f0f7ef',
+    primary: '#fff',
     accent: '#000',
     muted: 'rgba(0, 0, 0, 0.7)',
-    cardBg: '#c2dbba',
+    cardBg: '#fff',
     borderColor:"#540229",
     labelText: "#777",
     inputBorder: "#aaa",

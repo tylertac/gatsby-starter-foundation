@@ -16,7 +16,7 @@ export default function BlogListHome(props) {
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Recent <strong>Events</strong> <span className="icon -right"><RiArrowDownLine/></span></h2>
+    <h2>Recent Events</h2>
     <div className="grids col-2 sm-1 lg-2">
       {data}
     </div>
