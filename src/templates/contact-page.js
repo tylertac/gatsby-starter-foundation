@@ -29,7 +29,7 @@ const Contact = ({data}) => {
   const { frontmatter, html } = markdownRemark
 
   return  (
-    <Layout className="contact-page" sx={contactStyles.contactPage}>
+    <Layout sx={contactStyles.contactPage}>
       <SEO
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
