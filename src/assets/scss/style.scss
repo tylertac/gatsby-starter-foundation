@@ -121,7 +121,7 @@
 
 	}
 	.featured-image {
-		border-radius: 12px;
+		border-radius: 6px;
 	}
 	@media (max-width: $breakpoint-sm) {
 		padding: 30px 0;
@@ -151,13 +151,13 @@
 }
 .post-card {
 	padding: 16px;
-	border: 1px solid rgba(0,0,0,0.08);
+	// border: 1px solid rgba(0,0,0,0.08);
 	background-color:#fff;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
-	border-radius: 12px;
+	border-radius: 6px;
 	transition: box-shadow .3s linear;
 	.featured-image {
-		border-radius: 12px;
+		border-radius: 6px;
 		img {
 			display: block;
 			margin: 0;
@@ -172,7 +172,7 @@
 		// }
 	}
 	&:hover {
-		border: 1px solid rgba(0,0,0,0.12);
+		// border: 1px solid rgba(0,0,0,0.12);
 		box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 		// .title {
 		// 	color: var(--button-alternate-color);
@@ -216,7 +216,7 @@
 }
 @media (max-width: $breakpoint-sm) {
   .post-card .featured-image {
-    min-height: 300px;
+    min-height: 450px;
   }
 }
 article figure {
@@ -265,7 +265,7 @@ article img {
 	padding: var(--padding) calc(var(--padding) * 2);
 	background-color: var( --button-alternate-color);
 	color: var(--button-color);
-	border-radius: 12px;
+	border-radius: 6px;
 	text-decoration: none;
 	appearance: none;
 	border: none;

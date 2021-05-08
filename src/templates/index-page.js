@@ -24,7 +24,7 @@ export const pageQuery = graphql`
             gatsbyImageData(
               layout: CONSTRAINED
               width: 585
-              height: 439
+              height: 539
             )
           }
         }
@@ -46,13 +46,12 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
-            title
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
                   layout: FIXED
-                  width: 300
-                  height: 300
+                  width: 550
+                  height: 400
                 )
               }
             }

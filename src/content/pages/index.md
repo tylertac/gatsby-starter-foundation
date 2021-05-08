@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Food & Flair Design
+title: Food & Flair Designs
 tagline: Trish Steiskal
 featuredImage: /assets/food-flair-designs.white-background-logo.png
 cta:
@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-Blurb about Food & Flair Designs. 
+Blurb about Food & Flair Designs.

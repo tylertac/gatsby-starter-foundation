@@ -5,7 +5,7 @@ const theme = {
     primary: '#c2dbba',
     accent: '#000',
     muted: 'rgba(0, 0, 0, 0.7)',
-    cardBg: '#000',
+    cardBg: '#c2dbba',
     borderColor:"#540229",
     labelText: "#777",
     inputBorder: "#aaa",
