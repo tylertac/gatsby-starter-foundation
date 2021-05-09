@@ -4,9 +4,9 @@
     "titleTemplate": "%s",
     "description": "The website of Food & Flair Designs.",
     "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "image": "/assets/f-f_small.jpg",
+    "iconimage": "/assets/f-f_small.jpg",
+    "twitterUsername": ""
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-XXXXXXXXXXX-X"
 }
