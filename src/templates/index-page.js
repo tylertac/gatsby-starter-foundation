@@ -23,8 +23,8 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(
               layout: CONSTRAINED
-              width: 460
-              height: 500
+              width: 350
+              height: 400
             )
           }
         }
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
-                  layout: FIXED
+                  layout: CONSTRAINED
                   width: 550
                   height: 450
                 )

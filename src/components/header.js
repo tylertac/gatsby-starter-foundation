@@ -12,7 +12,7 @@ const Header = ({children}) => (
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   </style>
-  <div className="container grids col-3">
+  <div className="container grids col-2 sm-1 lg-3">
     {children}
   </div>
   </header>
