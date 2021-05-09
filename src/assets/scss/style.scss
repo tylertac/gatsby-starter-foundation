@@ -180,7 +180,7 @@ h1,p {
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 	border-radius: 6px;
 	transition: box-shadow .3s linear;
-	
+
 	.featured-image {
 		border-radius: 6px;
 		img {
@@ -342,6 +342,11 @@ article img {
 		margin: 0 auto;
 	}
 }
+
+.about-page {
+	margin-top: 75px;
+}
+
 // Contact page
 .contact-page {
 	.wrapper {
