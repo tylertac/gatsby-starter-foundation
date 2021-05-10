@@ -12,7 +12,19 @@ time {
 }
 
 h1,p {
-	text-align: center;
+	text-align: left;
+}
+
+p {
+	font-size: 14px;
+}
+
+.featured-banner {
+	max-width: 50%;
+	margin: 0 auto;
+	@media (max-width: $breakpoint-sm) {
+    max-width: 100%;
+  }
 }
 
 .primary-container main {
@@ -272,7 +284,7 @@ article img {
 	max-width: 100%;
 }
 .blog-post-content {
-	max-width: 70ch;
+	max-width: 52ch;
 	margin:0 auto;
 	padding: 20px;
 	line-height: 1.5;
@@ -334,6 +346,7 @@ article img {
 .page,
 .blog-page,
 .contact-page,
+.about-page,
 .thanks-page,
 .not-found-page {
 	padding: 50px 20px;
@@ -344,7 +357,7 @@ article img {
 }
 
 .about-page {
-	margin-top: 75px !important;
+	// margin-top: 75px !important;
 }
 
 // Contact page
@@ -438,7 +451,7 @@ article img {
 			text-align: right;
 		}
 		p {
-			font-size: 14px;
+			font-size: 12px;
 			margin: 0 0 5px;
 			color: #3c3539;
 		}
