@@ -4,6 +4,6 @@ title: Image Three
 slug: /three
 date: 2020-05-23 23:40
 description: Three
-featuredImage: /assets/133352894_10224400857795118_5495291702444444560_n.jpeg
+featuredImage: /assets/133006180_10224413486230821_5355193047249688982_n.jpeg
 ---
 Three
