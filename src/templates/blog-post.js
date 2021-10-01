@@ -75,7 +75,6 @@ const Post = ({ data, pageContext }) => {
       <SEO
         title={frontmatter.title}
         description={frontmatter.description ? frontmatter.description : excerpt}
-        image={Image}
         article={true}
       />
       <article className="blog-post">
@@ -84,13 +83,6 @@ const Post = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
           </section>
-          {Image ? (
-            <GatsbyImage
-              image={Image}
-              alt={frontmatter.title + " - Featured image"}
-              className="featured-image"
-            />
-          ) : ""}
         </header>
 
         <div
