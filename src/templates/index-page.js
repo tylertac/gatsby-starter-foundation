@@ -19,15 +19,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tagline
-        featuredImage {
-          childImageSharp {
-            gatsbyImageData(
-              layout: CONSTRAINED
-              width: 350
-              height: 400
-            )
-          }
-        }
         cta {
           ctaText
           ctaLink
@@ -46,15 +37,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             slug
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(
-                  layout: CONSTRAINED
-                  width: 550
-                  height: 450
-                )
-              }
-            }
           }
         }
       }
@@ -65,9 +47,6 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage
-  ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
-  : ""
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return(
       <div key={"social icons" + index}>
