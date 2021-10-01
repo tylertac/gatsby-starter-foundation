@@ -74,13 +74,7 @@ const HomePage = ({ data }) => {
       <SEO/>
       <div className="home-banner grids col-1 sm-1">
       <div className="home-banner-bg">
-        {Image ? (
-          <GatsbyImage
-            image={Image}
-            alt={frontmatter.title + " - Featured image"}
-            className="featured-image"
-          />
-        ) : ""}
+        
       </div>
         <div class="information">
           <h1 className="title">{frontmatter.title}</h1>
